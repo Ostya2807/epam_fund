@@ -8,7 +8,7 @@ export default defineConfig([
   {
     files: ["**/*.{js,mjs,cjs}"],
     languageOptions: {
-      sourceType: "commonjs",
+      sourceType: "module",
       ecmaVersion: "latest",
       globals: {
         ...globals.node,
@@ -22,5 +22,5 @@ export default defineConfig([
       "func-names": "off",
       "object-curly-newline": "off"
     }
-  }
+  } 
 ]);
